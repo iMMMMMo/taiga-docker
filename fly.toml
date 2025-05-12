@@ -1,0 +1,7 @@
+app = "taiga-app"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  TAIGA_SECRET_KEY = "super-secret-key"
